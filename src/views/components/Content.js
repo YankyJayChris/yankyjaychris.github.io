@@ -38,6 +38,7 @@ const Content = {
                     </div>
                     <div id="about" class="about ${request.resource === 'about'? ' ': 'hide'}">
                         <p>${myInfo.about}</p>
+                        
                     </div>
                 </div>
             </div>
