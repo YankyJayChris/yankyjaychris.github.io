@@ -1,4 +1,4 @@
-let Error404 = {
+const Error404 = {
   render: async () => {
     let view = /*html*/ `
             <div class="content-error">

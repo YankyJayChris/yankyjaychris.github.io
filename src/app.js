@@ -7,6 +7,7 @@ import Utils from './services/Utils.js'
 const routes = {
   "/": Home,
   "/about": Home,
+  "/contact": Home,
 };
 
 
@@ -16,7 +17,7 @@ const router = async () => {
 
   // Get the parsed URl from the addressbar
   let request = Utils.getURL();
-  console.log(request);
+  
   // App contener
   const appContent = document.getElementById("app");
   appContent.innerHTML = "";

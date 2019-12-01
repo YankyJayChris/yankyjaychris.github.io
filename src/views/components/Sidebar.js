@@ -1,4 +1,6 @@
-import { myInfo } from '../../store/Data.js'
+import { myInfo } from '../../store/Data.js';
+
+import Utils from './../../services/Utils.js';
 
 const Sidebar = {
   render: async () => {
@@ -25,13 +27,21 @@ const Sidebar = {
                         </div>
                     </div>
                     <div class="ctabox">
-                        <input class="cta" type="button" value="Hire Me">
+                        <input class="cta hireme" type="button" value="Hire Me">
                     </div>
                 </nav>
             </div>
         `;
     return view;
   },
-  events: async () => {}
+  events: async () => {
+      const request = Utils.getURL();
+      const hireme = document.querySelector(".hireme");
+
+      hireme.addEventListener('click', ()=> {
+        if(request.resource === "/contact") return;
+        Utils.routeTo('/#/contact');
+      });
+  }
 };
 export default Sidebar;
