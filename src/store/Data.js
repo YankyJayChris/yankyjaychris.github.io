@@ -9,7 +9,7 @@ export const myInfo = {
     image: "./src/assets/chris.jpeg",
     linkedin: "https://www.linkedin.com/in/igihozo-jean-christian-657096171/",
     github: "https://github.com/YankyJayChris",
-    about:"A Web Developer that knows how to create design and modify web content. I Have experience in analyzing customer needs working with teams and using modern frameworks to build Fontend App. With the capacity to adapt and learn fast knows how to apply all stages of web development."
+    about:"A Web Developer that knows how to create design and modify web content. I Have experience in analyzing customer needs working with teams and using modern frameworks to build Fontend App. With the capacity to adapt and learn fast knows how to apply all stages of web development.Proficient in HTML, CSS, JavaScript; plus modern libraries and frameworks. Passionate about usability and possess working knowledge of Adobe Photoshop."
 };
 
 
@@ -33,7 +33,7 @@ export const myProjects = [
         gitUrl: "https://codepen.io/yankyjaychris/pen/MWgyvBo"
     },
     {
-        image: "./src/assets/lotterynumbergenerator.png",
+        image: "./src/assets/lotterynumbergen.png",
         name: "Lottery number generator App",
         url: "https://codepen.io/yankyjaychris/pen/XWWmBjq",
         gitUrl: "https://codepen.io/yankyjaychris/pen/XWWmBjq"
