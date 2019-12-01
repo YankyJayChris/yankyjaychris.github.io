@@ -9,7 +9,7 @@ export const myInfo = {
     image: "./src/assets/chris.jpeg",
     linkedin: "https://www.linkedin.com/in/igihozo-jean-christian-657096171/",
     github: "https://github.com/YankyJayChris",
-    about:"A Web Developer that knows how to create design and modify web content. I Have experience in analyzing customer needs working with teams and using modern frameworks to build Fontend App. With the capacity to adapt and learn fast knows how to apply all stages of web development.Proficient in HTML, CSS, JavaScript; plus modern libraries and frameworks. Passionate about usability and possess working knowledge of Adobe Photoshop."
+    about:"A Web Developer that knows how to create design and modify web content. I Have experience in analyzing customer needs working with teams and using modern frameworks to build Fontend App. With the capacity to adapt and learn fast knows how to apply all stages of web development. Proficient in HTML, CSS, JavaScript; plus modern libraries and frameworks. Passionate about usability and possess working knowledge of Adobe Photoshop."
 };
 
 
@@ -125,7 +125,7 @@ export const mySchools = [
         subject: "advanced diploma in cloud computin (weend-program)"
     },
     {
-        date: "Jun 2016 to August 2015",
+        date: "Jun 2014 to August 2015",
         name: "Saint Louis University Main Campus - Phillipine",
         subject: "English Language and Literature"
     },

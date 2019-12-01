@@ -18,7 +18,6 @@ const Utils = {
     request.verb = r[3];
     request.url = url;
 
-    console.log(request.url);
     return request;
   },
   routeTo: route => {
